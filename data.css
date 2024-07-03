@@ -1,0 +1,124 @@
+.mainhead {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.subhead {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.smallimagedata {
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 10px;
+}
+.trending {
+  color: #dc3545;
+  position: absolute;
+  top: 130vh;
+  left: 110px;
+}
+.trendinggames {
+  color: black;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.trendingimage {
+  height: 200px;
+  width: 250px;
+  border-radius: 20px;
+}
+s {
+  font-size: 15px;
+}
+.action {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: 300;
+  color: palegoldenrod;
+}
+.assasincreed {
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.contaier12:hover .assasincreed {
+  color: #0a58ca;
+}
+.iconimage {
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+  background-color: #dc3545;
+  padding: 10px;
+  margin-top: 5px;
+}
+.topgames {
+  color: #dc3545;
+  position: absolute;
+  top: 5vh;
+  left: 110px;
+}
+
+.mpimage {
+  height: 180px;
+  width: 100%;
+  border-radius: 10px;
+}
+.categories {
+  color: #dc3545;
+  position: relative;
+  top: 80vh;
+  left: 110px;
+  margin-left: 40vw;
+}
+.topcategories {
+  color: black;
+  position: relative;
+  top: 82vh;
+  font-weight: bold;
+  margin-left: 30vw;
+  left: 65px;
+}
+.topimage {
+  height: 300px;
+  width: 100%;
+  border-radius: 20px;
+}
+.topaction {
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  margin: 10px;
+  text-align: center;
+}
+.ourshop {
+  color: #dc3545;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+span {
+  color: #0a58ca;
+}
+
+.latin {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.shopnowbutton {
+  background-color: #dc3545;
+  padding: 10px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 30px;
+}

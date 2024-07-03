@@ -1,0 +1,208 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+body {
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  color: azure;
+  height: 90px;
+  width: 100vw;
+  background-color: #0d6efd;
+  text-align: center;
+  left: 0;
+  padding: 30px;
+  padding-left: 150px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  z-index: 100;
+}
+
+a {
+  font-size: 20px;
+  font-weight: 300;
+  justify-content: right;
+  padding: 5px;
+  border-radius: 15px;
+  padding: 5px;
+  text-decoration: none;
+  color: azure;
+  margin-right: 20px;
+  height: 30px;
+}
+button {
+  font-size: 20px;
+  background-color: #dc3545;
+  border-radius: 20px;
+  padding: 10px;
+  color: azure;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-color: none;
+  padding-top: 5px;
+}
+button:hover {
+  background-color: #0d6efd;
+}
+a:hover {
+  background-color: #0a58ca;
+}
+.home {
+  background-color: #0a58ca;
+  padding: 10px;
+  margin-left: 500px;
+  border-radius: 20px;
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  margin-right: 100px;
+}
+.name {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+input {
+  border-width: 0px;
+  background-color: transparent;
+  width: 25vw;
+  padding-left: 50px;
+  border: none;
+  border-radius: 25px;
+}
+
+.searchbutton {
+  height: 50px;
+  width: 10vw;
+  background-color: #dc3545;
+  border-radius: 25px;
+  padding: 10px;
+  position: relative;
+}
+
+.box1 {
+  position: absolute;
+  height: 50px;
+  width: 70px;
+  border-radius: 25px;
+  background-color: #0d6efd;
+  top: 3vh;
+  left: 18.5vw;
+  padding-top: 10px;
+  color: azure;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.box2 {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  background-color: #dc3545;
+  top: 73vh;
+  left: 62vw;
+  color: azure;
+  font-size: 25px;
+  padding: 15px;
+  padding-top: 22.5px;
+  font-weight: bold;
+}
+
+.smallimage {
+  height: 100px;
+  border-radius: 50px;
+  width: 100px;
+  background-color: #0a58ca;
+  padding: 30px;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.viewallbutton {
+  height: 50px;
+  width: 7vw;
+  background-color: #dc3545;
+  border-radius: 25px;
+  padding: 10px;
+  position: relative;
+  margin-left: 58vw;
+  border-color: white;
+}
+.viewallbutton:hover {
+  background-color: #0d6efd;
+}
+
+.box3 {
+  position: absolute;
+  height: 50px;
+  width: 60px;
+  border-radius: 20px;
+  background-color: #0d6efd;
+  top: 20px;
+  left: 180px;
+  padding-top: 0px;
+  color: azure;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.adventure {
+  font-size: 15px;
+  color: rgb(145, 139, 139);
+}
+.explorebutton {
+  position: absolute;
+  top: 280px;
+  background-color: #dc3545;
+  padding: 10px;
+  align-items: center;
+  border-width: 0px;
+  border-color: white;
+  margin-left: 50px;
+}
+.categories {
+  color: #dc3545;
+  position: absolute;
+  top: 5vh;
+  left: 110px;
+}
+.subscribenowbutton {
+  height: 50px;
+  width: 15vw;
+  background-color: #dc3545;
+  border-radius: 25px;
+  padding: 10px;
+  position: relative;
+  font-size: 10px;
+}
+
+footer {
+  height: 200px;
+  position: relative;
+  width: 100vw;
+  background-image: url("https://templatemo.com/templates/templatemo_589_lugx_gaming/assets/images/banner-bg.jpg");
+  background-size: cover;
+  box-sizing: border-box;
+  top: 80vh;
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}

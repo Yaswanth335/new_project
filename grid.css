@@ -1,0 +1,29 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+
+.box{
+    
+    border : 2px solid;
+    height: 100px;
+    width:150px;
+}
+.box1 {
+    background-color: aqua;
+}
+.box2 {
+    background-color:red;
+}
+.box3 {
+    background-color:green;
+}
+.box4 {
+    background-color:pink;
+}
+.box5 {
+    background-color:yellow;
+}
+.box6 {
+    background-color:black;
+}
